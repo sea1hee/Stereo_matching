@@ -1,10 +1,15 @@
-Stereo_matching using Dynamic Programming
+Stereo matching using Dynamic Programming and DSI
 ===============
 Computer Vision Project   
 
 Description
 -----------
 Stero System에서 두 이미지 사이의 Matching Point를 찾는 것을 Stero matching이라고 한다. 좌, 우 이미지 간 이미지 속 물체가 얼마나 움직였는지를 찾아낸다. 카메라와 가까이 있는 물체라면 많이 움직였을 것이고, 멀리 있는 물체라면 상대적으로 적게 움직였을 것이다. 이러한 성질을 이용해 depth map을 결과물로 도출한다.   
+
+
+
+Stereo mathcing
+---------------
 
 <img width="500" src="https://user-images.githubusercontent.com/22738293/103155765-fba66100-47e5-11eb-9304-30ed8437bbb4.png">
 
